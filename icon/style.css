@@ -1,0 +1,40 @@
+body {
+  margin: 5px;
+}
+.container {
+  display: flex;
+  gap: 30px;
+}
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+/* 
+    Note: The overflow property only works for block elements with a specified height.
+
+    The overflow property has the following values:
+
+    visible - Default. The overflow is not clipped. The content renders outside the element's box
+    hidden - The overflow is clipped, and the rest of the content will be invisible
+    scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+    auto - Similar to scroll, but it adds scrollbars only when necessary
+
+*/
